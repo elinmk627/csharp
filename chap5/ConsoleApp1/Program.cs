@@ -22,8 +22,9 @@ namespace from {
                 where n > 3                            // 생략가능
                 orderby n descending            // 내림차순정렬(생략가능)
                 select n;                                  //select or group으로 끝나야 한다.
-
-            foreach (int i in onjQuery2)                Console.WriteLine(i);
+             
+            foreach (int i in onjQuery2)
+                Console.WriteLine(i);
         }
     }
 }

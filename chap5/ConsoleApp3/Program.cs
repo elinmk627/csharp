@@ -20,7 +20,7 @@ namespace ConsoleApp3 {
                 select word;
 
             foreach(var w in favorite) {
-                Console.WriteLine("A로 시작되는 단어 : {0}", w);
+                Console.WriteLine("A로 시작되는 단어 : {0}", w); 
             }
         }
     }

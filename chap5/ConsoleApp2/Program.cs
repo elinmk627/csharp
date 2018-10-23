@@ -18,7 +18,7 @@ namespace MethodQueryExam {
             Console.WriteLine("Sum = " + sum);
 
             //메소드 기반 쿼리식, 짝수중 최대값
-            int max = numbers.Where(num => num % 2 == 0).Max();
+            int max = numbers.Where(num => num % 2 == 0).Max(); 
             Console.WriteLine("Max = " + max);
 
             //메소드 기반 쿼리식, 짝수의 평균값
