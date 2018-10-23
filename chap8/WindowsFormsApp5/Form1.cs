@@ -18,6 +18,18 @@ namespace WindowsFormsApp5 {
             Text = "ListView";
             Size = new Size(350, 300);
 
+            //ColumnHeader h1 = new ColumnHeader();
+            //h1.Text = "Name";
+            //h1.Width = 150;
+            //h1.TextAlign = HorizontalAlignment.Center;
+
+            //ColumnHeader h2 = new ColumnHeader();
+            //h1.Text = "Year";
+            //h1.Width = 150;
+            //h1.TextAlign = HorizontalAlignment.Center;
+            //listView1.Columns.Add(h1);
+            //listView1.Columns.Add(h2);
+
             List<Actress> actress = new List<Actress>();
             actress.Add(new Actress("Jessica Alba", 1981));
             actress.Add(new Actress("Angelina Jolie", 1975));
